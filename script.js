@@ -146,7 +146,7 @@ async function getAIAnswer(question) {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                model: 'deepseek-coder-v2:latest',
+                model: 'llama3.1:8b',
                 prompt: prompt,
                 stream: true
             })
